@@ -14,8 +14,8 @@
   "author": "",
   "license": "ISC",
   "jest": {
-    "testEnvironment": "node",
-     "testRunner": "jest-circus/runner"
+    "testEnvironment": "node"
+    
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -26,6 +26,7 @@
     "pm2": "^6.0.8"
   },
   "devDependencies": {
+    "jest": "^30.0.5",
     "nodemon": "^3.1.10",
     "supertest": "^7.1.4"
   }
