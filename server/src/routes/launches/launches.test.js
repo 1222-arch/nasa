@@ -11,7 +11,7 @@ describe('Launches API', () => {
     await mongoConnect();
     await loadPlanetsData(); 
 
-    await loadPlanetsData(); 
+      
   
   });
 
